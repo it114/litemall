@@ -9,8 +9,8 @@
 # 重置数据库
 # i. 请在`XXXXXX`处设置相应的root密码
 # ii. 同时请注意root密码放在脚本是非常危险的，因此这里仅仅是用于开发测试阶段。
-ROOT=root
-PASSWORD=
+ROOT=pintuan
+PASSWORD=1234Pintuan
 
 if test -z "$PASSWORD"
 then

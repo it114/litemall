@@ -23,6 +23,9 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 cnpm install
 cnpm run build:dep
 
+#复制管理站点
+cp -R ./dist    $LITEMALL_HOME/deploy/litemall/admin
+
 cd $LITEMALL_HOME
 mvn clean package
 cp -f $LITEMALL_HOME/litemall-all/target/litemall-all-*-exec.jar $LITEMALL_HOME/deploy/litemall/litemall.jar
